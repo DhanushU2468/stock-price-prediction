@@ -4,7 +4,7 @@ import streamlit as st
 import yfinance as yf
 from keras.models import load_model
 
-model = load_model('c:/Users/dhanush/OneDrive/Desktop/stock price prediction/stock price prediction.keras')
+model = load_model('stock price prediction.keras')
 
 st.header('stock market predictor')
 stock=st.text_input('enter the stock symbol','GOOG')
